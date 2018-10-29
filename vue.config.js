@@ -1,3 +1,5 @@
+const px2rem = require('postcss-plugin-px2rem');
+
 module.exports = {
 	pages: {
 		main: {
@@ -17,6 +19,16 @@ module.exports = {
 			template: 'public/index.html',
 			filename: 'project.html',
 			title: '项目信息'
+		}
+	},
+
+	css: {
+		loaderOptions: {
+			postcss: {
+				plugins: [px2rem({
+					rootValue: 75
+				})]
+			}
 		}
 	}
 }

@@ -64,7 +64,6 @@ export default {
 <style lang="less" scoped>
 .container {
   font-size:.373333rem;
-  background:rgba(241,241,241,1);
 }
 .text {
   font-size:.373333rem;

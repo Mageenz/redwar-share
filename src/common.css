@@ -5,6 +5,7 @@
 html,body {
   /* width: 100%; */
   overflow-x: hidden;
+  background:rgba(241,241,241,1);
 }
 img {
   display: block;
