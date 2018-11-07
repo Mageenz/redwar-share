@@ -11,7 +11,8 @@
     "postcss-loader": "^3.0.0",
     "postcss-plugin-px2rem": "^0.7.0",
     "postcss-px2rem": "^0.3.0",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.2",
