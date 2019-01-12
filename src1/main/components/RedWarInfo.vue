@@ -19,7 +19,7 @@
       <div class="people block">
         <div class="text">{{info.packet.sellerNumber}}人已领取</div>
         <div class="photos">
-          <img :src="item" alt="" v-for='item in packetLogList'>
+          <img :src="item.avator" alt="" v-for='item in packetLogList'>
         </div>
       </div>
       <div class="info block">
